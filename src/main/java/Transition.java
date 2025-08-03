@@ -10,7 +10,7 @@ public class Transition {
 
     // Helper Methods
 
-    public void add(State source, char input, State target) {
+    public void add(State source, Character input, State target) {
 
         // If no transitions exist for the source state, create a new map
         if(!transition.containsKey(source)) {
